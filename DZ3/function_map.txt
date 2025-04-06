@@ -1,0 +1,10 @@
+Function Map for DNSApp.java
+------------------------------------
+main()               -> Console input loop & menu dispatch
+printMenu()          -> Prints available commands
+sniffDNSPackets()    -> Task 1: Captures DNS packets in promiscuous mode, prints them
+parseDNSPacket()     -> Helper to decode DNS header + first question
+toUnsignedShort()    -> Byte conversion helper
+resolveMX()          -> Task 2: Uses dig to get MX records for a domain
+rootServerQuery()    -> Task 3: Queries root & ISP DNS for specified domains
+createFunctionMap()  -> Generates this file
